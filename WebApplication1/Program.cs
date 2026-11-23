@@ -13,7 +13,7 @@ namespace WebApplication1
 
             // Configure the HTTP request pipeline.
 
-            app.UseMiddleware<CustomMiddlewares.RequestTimingMiddleWare>();
+            //app.UseMiddleware<CustomMiddlewares.RequestTimingMiddleWare>();
 
             if (!app.Environment.IsDevelopment())
             {
